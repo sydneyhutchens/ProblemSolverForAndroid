@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Problem Solver</string>
+    <string name="problemSolverWelcome">Welcome to the Problem Solver</string>
+    <string name="selectProblem">Please choose a problem:</string>
+    <string name="openFWGC">FWGC</string>
+    <string name="openPuzzle">8 PUZZLE</string>
+    <string name="FWGC_welcome">Welcome to the FWGC Problem</string>
+    <string name="Puzzle_welcome">Welcome to the 8-Puzzle Problem</string>
+    <string name="fwgc_intro">A farmer and his wolf, goat, and cabbage come to the edge of a river they wish to cross:</string>
+    <string name="fwgc_descrip">There is a boat at the river\'s edge that only the farmer can row. The farmer can take at most one other object besides himself on a crossing, but if the wolf is ever left with the goat, the wolf will eat the goat; similarly, if the goat is left with the cabbage, the goat will eat the cabbage. Devise a sequence of crossings of the river so that all four characters arrive safely on the other side:</string>
+    <string name="puzzle_intro">You are given a board in which numbered tiles can slide around. There is one blank space that holds no tile. Here is an example:</string>
+    <string name="puzzle_descrip">A legal move consists of sliding a tile into the blank space if the tile is adjacent to it. The goal is to move the tiles around until the board looks like this:</string>
+    <string name="fwgc_start">" | | \n F | | \n W | | \n G | | \n C | | \n | | "</string>
+    <string name="fwgc_end">" | | \n | | F \n | | W \n | | G \n | | C \n | | "</string>
+    <string name="puzzle_start"> +---+---+---+\n| 2 | 8 | 3 |\n+---+---+---+\n| 1 | 6 | 4 |\n+---+---+---+\n| 7 | \ | 5 |\n+---+---+---+ </string>
+    <string name="puzzle_end"> +---+---+---+\n| 1 | 2 | 3 |\n+---+---+---+\n| 8 | \ | 4 |\n+---+---+---+\n| 7 | 6 | 5 |\n+---+---+---+ </string>
+    <string name="fwgc_begin">Begin FWGC Problem</string>
+    <string name="puzzle_begin">Begin 8-Puzzle Problem</string>
+
+    <string name="farmer_alone">Farmer Goes Alone</string>
+    <string name="farmer_takes_wolf">Farmer Takes Wolf</string>
+    <string name="farmer_takes_goat">Farmer Takes Goat</string>
+    <string name="farmer_takes_cabbage">Farmer Takes Cabbage</string>
+    <string name="current_state">Current State</string>
+    <string name="solve">Solve</string>
+    <string name="next">Next</string>
+    <string name="reset">Reset</string>
+    <string name="congrats">Congrats! You Solved the Problem!</string>
+    <string name="move_count">Move Count:</string>
+    <string name="illegal_move">Oops! That move is illegal!</string>
+    <string name="one">Slide 1</string>
+    <string name="two">Slide 2</string>
+    <string name="three">Slide 3</string>
+    <string name="four">Slide 4</string>
+    <string name="five">Slide 5</string>
+    <string name="six">Slide 6</string>
+    <string name="seven">Slide 7</string>
+    <string name="eight">Slide 8</string>
+    <string name="puzzle_instructions">Click a tile to move it into the space</string>
+
+</resources>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CDDC39"
+    android:backgroundTint="#20885F"
+    tools:context=".fwgcIntro">
+
+    <TextView
+        android:id="@+id/welcome_fwgc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:padding="15dp"
+        android:text="@string/FWGC_welcome"
+        android:textColor="#272323"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <TextView
+        android:id="@+id/intro_fwgc"
+        android:layout_width="222dp"
+        android:layout_height="118dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/fwgc_intro"
+        android:textColor="#979292"
+        android:textSize="17sp"
+        android:textStyle="normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcome_fwgc" />
+
+    <TextView
+        android:id="@+id/farmerStart"
+        android:layout_width="116dp"
+        android:layout_height="114dp"
+        android:layout_marginTop="32dp"
+        android:background="#FFFFFF"
+        android:fontFamily="monospace"
+        android:text="@string/fwgc_start"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textStyle="bold"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.861"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcome_fwgc" />
+
+    <TextView
+        android:id="@+id/farmerEnd"
+        android:layout_width="116dp"
+        android:layout_height="114dp"
+        android:layout_marginTop="260dp"
+        android:background="#FFFFFF"
+        android:fontFamily="monospace"
+        android:text="@string/fwgc_end"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.861"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcome_fwgc" />
+
+
+    <TextView
+        android:id="@+id/FWGCDescription"
+        android:layout_width="226dp"
+        android:layout_height="317dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/fwgc_descrip"
+        android:textColor="#979292"
+        android:textSize="17sp"
+        android:textStyle="normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/intro_fwgc" />
+
+    <Button
+        android:id="@+id/FWGCStart"
+        android:backgroundTint="@color/teal_200"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fwgc_begin"
+        android:onClick="startFarmerProblem"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/FWGCDescription" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
